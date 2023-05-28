@@ -1,13 +1,17 @@
-
 /*  your css code here. If applicable */
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-.grid {
-  height: 100px;
-  background-color: transparent;
-  border: 1px solid black;
-}
+.grid-container { 
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 10px;
+		}
+		
+		#grid-item {
+			width: 100px;
+			height: 100px;
+			background-color: transparent;
+			border: 1px solid black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 30px;
+		} 
